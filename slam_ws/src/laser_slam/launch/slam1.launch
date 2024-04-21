@@ -1,0 +1,9 @@
+<launch>
+    <arg name="rviz" default="true" />
+    <group if="$(arg rviz)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz"
+            args="-d $(find laser_slam)/rviz/slam1.rviz" />
+    </group>
+    <node pkg="laser_slam" type="mapping1" name="mapping1" output="screen"></node>
+    <node pkg="laser_slam" type="tracking1" name="tracking1" output="screen"></node>
+</launch>

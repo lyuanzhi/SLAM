@@ -1,0 +1,10 @@
+closure_search_radius: 5
+sec_difference: 30
+closure_search_num: 50
+resolution: 0.4
+resolutionICP: 0.8
+score_thre: 0.3
+show_size: 0
+show_score: 0
+show_closure_points_compare: 0
+test_num: 1086

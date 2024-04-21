@@ -1,0 +1,12 @@
+topic: /velodyne_points
+# topic: /livox/lidar
+poseGT_path: /dataset/07.txt
+pose_path: /dataset/07_result.txt
+resolution: 0.4
+iterCount_num: 15
+nearestKSearch_num: 8
+max_d: 0.1             # threshold of points at same 'good' plane distance
+show_goodFeatureNum_size: 0
+cal_curva_rate: 4
+show_pose_err: 0
+lim: 30           # bounding box of local map
